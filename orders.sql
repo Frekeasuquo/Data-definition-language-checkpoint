@@ -1,7 +1,7 @@
 CREATE TABLE <order>
 (
-    Customer_id,VARCHAR(20),Foreign Key,
-    Product_id,VARCHAR(20),Foreign Key,
+    Customer_id,VARCHAR2(20),Foreign Key,
+    Product_id,VARCHAR2(20),Foreign Key,
     Quantity,NUMBER,
     Total_amount,NUMBER
 )
